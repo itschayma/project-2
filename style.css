@@ -1,0 +1,593 @@
+.navbar-brand {
+    font-style: italic;
+    color: #ab0929;
+    font-size: 34px;
+}
+
+.nav-item {
+    font-size: 19px;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.active {
+    background-color: #ab0929;
+    color: white !important;
+    text-decoration: none;
+}
+
+#navbarNav {
+    font-size: 20px;
+}
+
+#bloc1 div {
+    width: 100%;
+    height: 100%;
+}
+
+#bloc1 {
+    width: 100%;
+    height: 80vh;
+}
+
+#bloc1 {
+    background: url(images/bg/bg-6.jpg) no-repeat center;
+    background-position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 29rem;
+    text-align: center;
+}
+
+#bloc1 .color-overlay {
+    margin-left: 0;
+    width: 100%;
+    height: 29rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+strong {
+    color: #ab0929;
+}
+
+#bloc1 h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 9rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#bloc1 p {
+    color: white;
+    font-size: 23px;
+    padding: 1rem;
+}
+
+#bloc1 button {
+    border: 1px solid #ab0929;
+    background-color: #ab0929;
+    color: white;
+    margin-top: 1rem;
+    padding: 8px 15px;
+    font-size: 19px;
+    border-radius: 0;
+}
+
+/***** bloc2 ***/
+#bloc2 {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+#bloc2 h2 {
+    text-align: center;
+    margin: 3rem;
+    font-size: 50px;
+}
+
+
+#bloc2 .figure-caption {
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 96%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 0%;
+    width: 86%;
+}
+
+#bloc2 .form-check-input {
+    color: black;
+}
+
+#bloc2 .form-check-input:checked {
+    background-color: black;
+    border-color: black;
+}
+
+/***** bloc3 ***/
+#bloc3 {
+    width: 100%;
+    height: 100vh;
+}
+
+#bloc3 {
+    background: url(images/bg/bg-4.jpg) center;
+    background-color: rgba(0, 0, 0, 0.233);
+    background-size: cover;
+    height: 209px;
+    background-attachment: fixed;
+}
+
+#bloc3 h6 {
+    font-size: 31px;
+    padding: 2rem;
+    font-weight: 100;
+    text-align: center;
+    color: #fff9f9;
+    font-weight: bold;
+}
+
+
+#bloc3 .color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+
+#bloc2 ul {
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+/***** bloc4*****/
+#bloc4 h2 {
+    font-size: 4rem;
+}
+
+#bloc4 p {
+    font-size: 1rem;
+}
+
+/***** bloc5*****/
+#bloc5 {
+    margin: 0 0;
+    background-color: rgba(200, 227, 238, 0.795);
+}
+
+#bloc5 h3 {
+    font-size: 4rem;
+}
+
+#bloc5 p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/***** bloc6*****/
+#bloc6 {
+    background: url(images/bg/bg-4.jpg) center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#bloc6 p {
+    font-size: 15px;
+}
+
+
+/***** bloc7*****/
+
+#bloc7 .col {
+    border: solid 1px gray;
+    padding: 1.4rem 0;
+    text-align: center;
+    width: 19%;
+}
+
+/***** bloc8*****/
+#bloc8 {
+    background-color: rgb(39, 33, 33);
+    color: white;
+
+}
+
+#bloc8 .card {
+
+    border: none;
+    background: none;
+    color: #ffffffad;
+    font-size: 20px;
+
+}
+
+#bloc8 .card-title {
+    color: white;
+}
+#bloc8 .btn {
+    margin-top: 5px;
+    background-color: #ab0929;
+    color: white;
+
+}
+input{
+    padding: 5px;
+}
+#bloc8 h5 {
+    font-size: 22px;
+}
+
+#bloc8 hr {
+    width: 100%;
+
+}
+
+/***** copyright*****/
+#copyright {
+    background-color: rgb(39, 33, 33);
+    border-top: 1px rgb(49, 46, 46) solid;
+    color: white;
+    justify-content: space-between;
+}
+
+#copyright ul {
+    padding-left: 25rem;
+}
+
+#copyright ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
+#copyright a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+#bread {
+    background: url(bg/bg-6.jpg);
+    font-size: 25px;
+}
+
+.title-bread {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+/*breadcrumb-item {
+    color: white !important;
+    padding: 4rem 18rem;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/**** part1*****/
+#part1 .card {
+    border: none;
+}
+
+#part1 i {
+    margin-bottom: 5px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+}
+
+/**** part2*****/
+#part2 .row {
+    margin: auto;
+    width: 68%;
+}
+
+
+#part2 .card {
+    margin-top: 5rem;
+    width: 19rem;
+    height: 18rem;
+    margin-right: 13px;
+    border-radius: 0%;
+
+
+}
+
+#part2 .container-fluid {
+    background: url(images/bg/bg-5.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    height: 29rem;
+}
+
+#part2 i {
+    color: white;
+    background-color: rgb(59, 163, 59);
+    font-size: 4rem;
+    padding: 20px;
+}
+
+/**** part3*****/
+
+#part3 .container {
+    margin: auto;
+    width: 65%;
+
+}
+
+#part3 h1 {
+    margin: 5rem 0;
+    font-weight: 500;
+}
+
+#part3 .card {
+    border-radius: 0;
+    width: 23rem;
+    margin: 0 1rem;
+}
+
+#part3 i {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(59, 163, 59);
+    font-size: 5rem;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+    padding: 5px
+}
+
+#part3 .btn {
+    background-color: #ab0929;
+    color: white;
+    border: 0px;
+    width: 8rem;
+    padding-bottom: 5px;
+}
+
+#part3 .bg-gray {
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+#part3 .bg-green {
+    background-color: rgb(59, 163, 59);
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+/**** part4*****/
+#part4 {
+    background: url(images/bg/bg-2.jpg) center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 5rem;
+}
+
+#part4 p {
+    font-size: 15px;
+}
+
+#part4 .bg--transpa {
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+
+/********* BLOG start ******/
+nav .breadcrumb {
+    background: url(images/bg/bg-6.jpg);
+    background-size: cover;
+}
+
+#part5 h3 {
+    margin: 2rem 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#part5 i {
+    color: #ab0929;
+    margin-right: 10px;
+
+}
+
+#part5 img {
+    margin-top: 2rem;
+
+}
+
+#part5 button {
+    color: white;
+    border: none;
+    background-color: #ab0929;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 0;
+
+}
+
+#part5 button i {
+    color: white;
+}
+
+#part5 .page-item .page-link {
+    margin-top: 5rem;
+    color: #ab0929;
+}
+
+#part5 .page-item .page-link:hover {
+    background-color: #ab0929;
+}
+
+#part5 .card {
+    border: none;
+    padding: 0;
+}
+
+#part5 .last ul li {
+    border-bottom: dashed 1px;
+    word-spacing: 1px;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+#part5 ul li i {
+    color: black;
+    margin-right: 2rem;
+}
+
+#part5 .badge {
+    border: 0px;
+    margin: 11px;
+    background-color: #ab0929 !important;
+}
+
+#part5 .bg-gray h3 {
+    margin-bottom: 2rem;
+}
+
+#part5 .bg-gray button {
+    background-color: #d9d9d9;
+    color: rgb(22, 10, 10);
+    border: none;
+    padding: 10px;
+    margin: 2px;
+
+}
+
+/********* about us start ****/
+#part6 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#part6 .position-absolute {
+    position: absolute !important;
+    bottom: 1rem;
+    background-color: white;
+    margin-left: 35px;
+    margin-right: 11px;
+    padding: 10px;
+}
+
+#part6 ul li {
+    list-style: none;
+    font-size: 18px;
+    margin-left: 0;
+    padding: 0;
+}
+
+#part6 i {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(29, 21, 21);
+    color: white;
+    margin-right: 10px;
+}
+
+#part6 .col-7 p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 17px;
+}
+
+
+/*******  part7  ********/
+#part7 {
+    padding: 5rem;
+    background-color: #f1efef;
+}
+
+.accordion-item {
+    margin: 1rem;
+}
+
+.accordion-button {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
+}
+
+#part7 .badge {
+    margin-right: 3rem;
+    margin-top: 3rem;
+    border-radius: 0;
+    background-color: #b5b5b5 !important;
+
+}
+
+#part7 .part8 {
+
+    margin: 3rem;
+    margin-right: 2rem;
+    padding: 5px 0;
+
+}
+
+#part7 h6 {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+#part7 .progress {
+    background: none;
+    border-radius: 0;
+    width: 23%;
+
+}
+
+#part7 .progress-bar {
+    background-color: #b5b5b5;
+
+
+}
+
+/********** part9 start *********/
+#part9 input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+
+#part9 textarea {
+    padding: 1rem;
+    height: 15rem;
+}
+
+#part9 button {
+    background-color: #ab0929;
+    color: white;
+    border: 1px solid #ab0929;
+    border-radius: 8px;
+
+    padding: 10px;
+    margin: 21px;
+}
